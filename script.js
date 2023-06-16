@@ -1,6 +1,7 @@
 const GAME_SIZE = 512;
 
 const game = document.querySelector("#grid");
+const reset = document.querySelector("#reset");
 
 let dim = 16;
 
@@ -17,4 +18,7 @@ function draw(resolution){
     }
 }
 
-draw(dim);
+function clear(){
+    const cells = document.querySelectorAll(".cell");
+    cells.forEach(cell => cell.remove());
+}

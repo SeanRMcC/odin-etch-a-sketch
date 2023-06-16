@@ -32,4 +32,5 @@ h3{
 
 .cell{
     box-sizing: border-box;
+    background-color: white;
 }
