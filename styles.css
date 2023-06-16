@@ -1,9 +1,28 @@
+body{
+    background-color: #00C4FF;
+}
+
 h1{
     text-align: center;
+    background-color: #DB005B;
+    width: 250px;
+    margin: 25px auto;
+    padding: 15px 10px;
+    border: 10px solid #B70404;
+    border-radius: 15px;
+    color: white;
+    font-family: "Brush Script MT";
+    font-size: 40px;
 }
 
 h3{
     margin-bottom: 0px;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #7149C6;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 15px;
 }
 
 .main{
@@ -13,24 +32,38 @@ h3{
 }
 
 #ui{
-    height: 512px;
+    box-sizing: border-box;
+    height: 532px;
     width: 300px;
-    border: 2px solid black;
+    border: 10px solid #F79327;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FFE7A0;
+    border-radius: 15px;
+    gap: 10px;
 }
 
 
 #grid{
     height: 512px;
     width: 512px;
-    border: 2px solid black;
+    border: 10px solid #7149C6;
     display: flex;
     flex-wrap: wrap;
+    border-radius: 15px;
 }
 
 .cell{
     box-sizing: border-box;
     background-color: white;
+}
+
+button{
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    font-size: 20px;
 }
