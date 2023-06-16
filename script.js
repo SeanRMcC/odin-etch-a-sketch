@@ -22,3 +22,10 @@ function clear(){
     const cells = document.querySelectorAll(".cell");
     cells.forEach(cell => cell.remove());
 }
+
+reset.addEventListener("click", () => {
+    clear();
+    draw(dim);
+});
+
+draw(dim);
