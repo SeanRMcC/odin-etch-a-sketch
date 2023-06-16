@@ -4,6 +4,7 @@ const game = document.querySelector("#grid");
 const reset = document.querySelector("#reset");
 const blackButton = document.querySelector("#black");
 const randomButton = document.querySelector("#random");
+const resButtons = document.querySelectorAll("#resolutions button");
 
 
 let dim = 16;
@@ -51,6 +52,14 @@ blackButton.addEventListener("click", () => {
 
 randomButton.addEventListener("click", () => {
     rainbowEnabled = true;
+});
+
+resButtons.forEach(button =>{
+    button.addEventListener("click", () => {
+        dim = parseInt(button.id);
+        clear();
+        draw(dim);
+    });
 });
 
 draw(dim);
