@@ -1,17 +1,17 @@
 body{
-    background-color: #00C4FF;
+    background-color: black;
 }
 
 h1{
     text-align: center;
-    background-color: #DB005B;
+    background-color: black;
     width: 250px;
     margin: 25px auto;
     padding: 15px 10px;
-    border: 10px solid #B70404;
+    border: 6px solid #FF0000;
     border-radius: 15px;
     color: white;
-    font-family: "Brush Script MT";
+    font-family: Impact;
     font-size: 40px;
 }
 
@@ -19,10 +19,11 @@ h3{
     margin-bottom: 0px;
     font-size: 30px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    background-color: #7149C6;
+    background-color: black;
     color: white;
     padding: 10px 15px;
-    border-radius: 15px;
+    border-radius: 8px;
+    border: 2px solid #FF0000;
 }
 
 .main{
@@ -35,11 +36,11 @@ h3{
     box-sizing: border-box;
     height: 532px;
     width: 300px;
-    border: 10px solid #F79327;
+    border: 10px solid #FF0000;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #FFE7A0;
+    background-color: #3D0000;
     border-radius: 15px;
     gap: 10px;
 }
@@ -48,7 +49,7 @@ h3{
 #grid{
     height: 512px;
     width: 512px;
-    border: 10px solid #7149C6;
+    border: 10px solid #FF0000;
     display: flex;
     flex-wrap: wrap;
     border-radius: 15px;
@@ -60,10 +61,15 @@ h3{
 }
 
 button{
-    border: 0px;
-    border-radius: 15px;
+    border: 2px solid #FF0000;
+    border-radius: 8px;
     padding: 5px 10px;
     color: white;
     background-color: black;
     font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#reset{
+    margin-top: 25px;
 }
