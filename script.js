@@ -46,14 +46,10 @@ reset.addEventListener("click", () => {
 });
 
 blackButton.addEventListener("click", () => {
-    clear();
-    draw(dim);
     rainbowEnabled = false;
 });
 
 randomButton.addEventListener("click", () => {
-    clear();
-    draw(dim);
     rainbowEnabled = true;
 });
 
